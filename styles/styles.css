@@ -1,13 +1,26 @@
 main {
     max-width: 840px;
 }
+nav {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+nav a {
+    color: #000;
+    padding: 20px;
+    display: block;
+}
+
+h1 {
+    color: #000;
+}
 aside {
 
     width: 20rem;
     margin: 1rem;
     border: 1px solid black;
     padding: 1rem;
-    background-color: rgb(235, 219, 191/0.2);
+    background-color: (rgb( 235, 219, 191 )/0.2);
     color: #333;
     text-align: center;
 }
@@ -15,12 +28,16 @@ aside img {
     width: 200px;
     height: auto;
 }
-main image {
+main img {
     width: 150px;
     height: auto;
+    border: 1px, #000;
+    padding: 1rem;
+    box-shadow: 0 0 20px gray;
 }
 p {padding: 0;}
 footer{
     margin-top: 20px;
-    border-top: 1px, solid black; 
+    border-top: 1px solid black;
+    text-align: center;
 }
