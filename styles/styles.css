@@ -1,43 +1,78 @@
+:root {
+    --maincolore: #000;
+    --fondocolore: rgb(235, 219, 191);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     max-width: 840px;
 }
+
 nav {
     background-color: antiquewhite;
     padding: 20px;
 }
+
 nav a {
-    color: #000;
+    color: var(--maincolore);
     padding: 20px;
     display: block;
 }
 
 h1 {
-    color: #000;
+    color: var(--maincolore);
 }
-aside {
 
+aside {
+    position: relative;
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid black;
-    padding: 1rem;
-    background-color: (rgb( 235, 219, 191 )/0.2);
-    color: #333;
     text-align: center;
 }
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    font-size: larger;
+    color: #e6e0e0;
+    text-shadow: 0 0 10px #000;
+}
+
 aside img {
     width: 200px;
     height: auto;
 }
+
 main img {
     width: 150px;
     height: auto;
-    border: 1px #000;
+    border: 1px var(--maincolore);
     padding: 1rem;
     box-shadow: 0 0 20px gray;
+    float: right;
 }
-p {padding: 0;}
-footer{
+
+p {
+    padding: 0;
+}
+
+footer {
     margin-top: 20px;
-    border-top: 1px solid black;
+    border-top: 1px solid var(--maincolore);
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid var(--maincolore);
+    padding: 1rem;
+    background-color: (var(--fondocolore)/0.2);
+    color: #333;
 }
