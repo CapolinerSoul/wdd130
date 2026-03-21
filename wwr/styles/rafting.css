@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #B47EB3;
+    --primary-color: #cebdce;
     --secondary-color: #D7E8BA;
     --accent1-color: #4DA1A9;
     --accent2-color: #2E5077;
@@ -18,6 +18,7 @@ header img {
 }
 
 body {
+    background-color: var(--secondary-color);
     font-family: var(--body-font);
     color: var(--accent1-color);
 }
@@ -59,14 +60,13 @@ article {
 
 h1 {
     position: absolute;
-    top: 170px;
+    top: 30px;
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: var(--accent1-color);
     color: #fff;
-    text-shadow: 0 0 15px #333;
 }
 
 h2 {
@@ -74,18 +74,19 @@ h2 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
     background-color: var(--accent1-color);
     color: #fff;
     text-shadow: 0 0 15px #333;
 }
 
-article {
+.hero article {
     background-color: var(--accent2-color);
     opacity: 0.9;
-    top: 400px;
+    top: 180px;
     position: absolute;
     width: 90%;
+    color: var(--secondary-color);
     box-shadow: 0 0 15px #333;
 }
 
@@ -95,9 +96,9 @@ article img {
     box-shadow: 0 0 15px #333;
 }
 
-.hero article image {
+.hero article img {
     float: right;
-    width: 200px;
+    width: 100px;
     box-shadow: 0 0 15px #333;
 }
 
