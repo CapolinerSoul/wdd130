@@ -80,10 +80,15 @@ h2 {
     text-shadow: 0 0 15px #333;
 }
 
+article h2 {
+    padding: 5px;
+    background-color: var(--accent2-color);
+}
+
 .hero article {
     background-color: var(--accent2-color);
     opacity: 0.9;
-    top: 180px;
+    top: 150px;
     position: absolute;
     width: 90%;
     color: var(--secondary-color);
