@@ -62,11 +62,6 @@ section img {
 }
 
 section {
-    display: block;
-    width: 100px auto;
-}
-
-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 60px 5fr;
