@@ -143,7 +143,7 @@ h1 {
 }
 
 h2 {
-    top: 170px;
+    position: relative;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -180,6 +180,102 @@ article img {
     box-shadow: 0 0 15px #333;
 }
 
+.shower {
+    text-align: center;
+}
+
+.shower p {
+    margin: 2px;
+    padding: 2px;
+}
+
+.map {
+    margin-bottom: 1rem;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 450px;
+    align-content: flex-start;
+}
+
+.map fieldset {
+    border: none;
+    display: grid;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+    gap: 1rem;
+}
+
+.column1 {
+    grid-template-columns: 60px 250px;
+    padding: 10px;
+}
+
+.column2 {
+    grid-template-columns: 60px 250px;
+    padding: 10px;
+}
+
+.column3 {
+    grid-template-rows: 1fr 3fr;
+    padding: 10px;
+}
+
+.column3 textarea {
+    height: 100px;
+    width: 320px;
+    align-self: center;
+}
+
+.radio_option {
+    margin: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 200px;
+    align-items: center;
+    text-align: left;
+
+}
+
+.column4 {
+    grid-template-columns: 60px 250px;
+}
+
+.submitb {
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+}
+
+iframe {
+    width: 450px;
+    height: 450px;
+}
+
+.gmap {
+    grid-column: 1/2;
+    grid-row: 1/6;
+}
+
+.map form {
+    grid-column: 2/4;
+    grid-row: 1/6;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+}
+
+.map form div .side {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
 footer a img {
     width: 30px;
+}
+
+.aboutfigure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 5fr;
+    align-content: center;
 }
