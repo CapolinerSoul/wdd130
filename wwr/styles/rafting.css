@@ -184,6 +184,11 @@ article img {
     text-align: center;
 }
 
+.shower h1 {
+    position: absolute;
+    top: 3000px;
+}
+
 .shower p {
     margin: 2px;
     padding: 2px;
@@ -254,19 +259,10 @@ iframe {
 
 .gmap {
     grid-column: 1/2;
-    grid-row: 1/6;
 }
 
 .map form {
-    grid-column: 2/4;
-    grid-row: 1/6;
-    grid-template-columns: subgrid;
-    grid-template-rows: subgrid;
-}
-
-.map form div .side {
-    grid-column: span 2;
-    grid-row: span 1;
+    grid-column: 2/3;
 }
 
 footer a img {
