@@ -225,6 +225,10 @@ article h2 {
     margin-bottom: 1rem;
 }
 
+.trippy h3 {
+    padding: 20px;
+}
+
 .trippy img {
     float: left;
     display: block;
