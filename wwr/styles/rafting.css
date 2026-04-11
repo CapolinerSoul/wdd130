@@ -131,6 +131,12 @@ article {
     height: auto;
 }
 
+.second img {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
 h1 {
     position: absolute;
     top: 30px;
@@ -158,6 +164,22 @@ article h2 {
     background-color: var(--accent2-color);
 }
 
+.rebang fieldset {
+    margin-top: 1rem;
+    border: solid 4px var(--accent2-color);
+    border-radius: 15px;
+
+}
+
+.rebang {
+    grid-template-columns: 5rem auto;
+}
+
+.index-cap {
+    margin-top: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .hero article {
     background-color: var(--accent2-color);
     opacity: 0.9;
@@ -166,12 +188,8 @@ article h2 {
     width: 90%;
     color: var(--secondary-color);
     box-shadow: 0 0 15px #333;
-}
-
-article img {
-    float: right;
-    width: 100px;
-    box-shadow: 0 0 15px #333;
+    margin-left: 2.6rem;
+    margin-right: auto;
 }
 
 .hero article img {
@@ -210,6 +228,10 @@ article img {
     display: grid;
     align-items: center;
     gap: 1rem;
+}
+
+.second article a {
+    text-decoration: none;
 }
 
 .column1 {
