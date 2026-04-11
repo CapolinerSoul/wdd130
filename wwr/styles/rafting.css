@@ -227,6 +227,11 @@ article h2 {
 
 .trippy h3 {
     padding: 20px;
+    text-align: center;
+}
+
+.trippy p {
+    text-align: center;
 }
 
 .trippy img {
